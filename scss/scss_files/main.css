@@ -1,0 +1,39 @@
+@import "mixin";
+@import "var";
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.main{
+  height: height;
+  width: width;
+  background-color: aquamarine;
+  @inculde flexcode();
+
+ h1 {
+  @include fontsize(50px);
+  color : color2;
+
+  & :hover {
+    font-size: 7rem;
+    color: blue;
+    cursor: default;
+
+  }
+ }
+
+ p {
+  @include font-size(40px);
+  color :bisque;
+  letter-spacing: 1px;
+  font-family: monospace;
+
+}
+}
+
+
+
+  
